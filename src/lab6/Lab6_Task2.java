@@ -2,6 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+//https://github.com/Lucas-Dash76/Lab6/tree/master
 package lab6;
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -63,7 +64,7 @@ public class Lab6_Task2 extends Application{
         roof.setFill(Color.LIGHTCYAN);
         
         Rectangle chimney = new Rectangle(140, 150, 25, 80);
-        chimney.setStroke(Color.GRAY);
+        chimney.setStroke(Color.BLACK);
         chimney.setFill(Color.GRAY);
         
         Circle sun = new Circle(450, 50, 30);
@@ -81,7 +82,7 @@ public class Lab6_Task2 extends Application{
         Background background = new Background(backgroundFill);
         root.setBackground(background);
         root.getChildren().addAll(lawn, house, poarch, door, doornob, window1,
-                l1, l2, window2, l3, l4, roof, chimney, sun, l5, l6, l7);
+                l1, l2, window2, l3, l4, chimney, roof, sun, l5, l6, l7);
         Scene s = new Scene(root, 500, 600);
        
        stage.setScene(s);
